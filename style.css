@@ -1,0 +1,50 @@
+@import "//fonts.googleapis.com/css?family=PT+Sans:400,400i,700";
+
+body{
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+b{
+  font-weight: 700;
+}
+
+.sidebar{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #202020;
+  text-align: center;
+  width: 100vw;
+  padding: 40px 20px 40px 20px;
+  color: rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+}
+
+.sidebar h1{
+  color: #fff;
+  font-size: 3em;
+}
+
+.sidebar a{
+  color: #fff;
+}
+
+.blog{
+  display: none;
+  margin: 0 0 0 22rem;
+  height: 100%;
+}
+
+.about{
+  display: none;
+  margin: 0 22rem 0 0;
+  height: 100%;
+  text-align: center;
+}
