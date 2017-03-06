@@ -1,0 +1,4 @@
+RewriteEngine On #turn the rewriting engine on
+RewriteRule ^blog/([0-9a-z]+)/?$ ?start=blog&view=$1 [NC,L] #blog rule for articles
+RewriteRule ^blog/$ ?start=blog [NC,L] #blog rule for /b/
+RewriteRule ^about/$ ?start=about [NC,L] #about rule for /a/
