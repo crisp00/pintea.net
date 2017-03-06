@@ -20,8 +20,10 @@ $blog = new Blog;
     </div>
     <div class="blog" id="blog">
       <?php
-        $test = $blog->getPostByID(1);
-        echo '<h1>'. $test->title .'</h1><br />' . $test->body;
+        $posts = $blog->getPosts(5, 1);
+        foreach($posts as $post){
+          echo $post->getHTML();
+        }
       ?>
     </div>
     <div class="about" id="about">

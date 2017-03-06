@@ -1,8 +1,12 @@
-title: Test post
-date: 2017-03-05
+title: "How I built my website"
+date: 2017-03-06
+author: Cristian Pintea
 +++
-Hey everyone!
-This is my first Post and __I__ was tinking
+I've had the __pintea.net__ domain for over a year now, and I've never done anything with it.
+A few days ago I had the realization, "I should make a blog!", so it all started.
+After a long day of research on what the best CMS was to make a personal website... From WP to Jekyll, Hakyll, Mecha...
+The sun was setting and I still hadn't made my mind up, so I made my own thing, and it came exactly as I wanted it!
+I'll be sharing thoughts, ideas and projects on here so you should stay tuned!
+Mailing list is also coming soon!!!
 
-------------------
-LALA!
+Until the next post, Cris over and out.

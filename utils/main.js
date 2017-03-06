@@ -1,8 +1,3 @@
-window.onload = function(){
-  var sidebar = document.getElementById("sidebar");
-  var blogLink = document.getElementById("blogLink");
-};
-
 function home(){ 
   $("#sidebar").animate({"width": "100%"}, function(){
     $("#blog").css("display", "none");

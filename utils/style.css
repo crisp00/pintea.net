@@ -3,11 +3,20 @@
 body{
   font-size: 20px;
   font-family: "PT Sans", sans-serif;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none;ù
+  color: #000;
+}
+
+a:visited{
+  color: #000;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 b{
@@ -41,10 +50,24 @@ h1{
   color: #fff;
 }
 
+.sidebar a:visited{
+  color: #fff;
+}
+
 .blog{
   display: none;
   margin: 0 0 0 22rem;
+  padding: 80px 20px 80px 20px;
   height: 100%;
+}
+
+.blog .post-title{
+  font-size: 3rem;
+  display: block;
+}
+
+.blog .post-date{
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .about{
